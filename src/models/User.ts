@@ -7,6 +7,7 @@ interface IUser extends Document {
   comparePassword(candidatePassword: string): Promise<boolean>;
 }
 
+
 const UserSchema = new Schema<IUser>({
   email: {
     type: String,
