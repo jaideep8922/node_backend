@@ -109,7 +109,7 @@ export const deleteTask = async (req: any, res: any) => {
   }
 };
 
-// Generate PDF
+// Generate PDF code
 export const generatePDF = async (req: any, res: any) => {
   try {
     if (!req.user) {
